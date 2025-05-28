@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignments</title>
+</head>
+<body>
+  <script>
+    let name = "Jawad Ahmed";
+    let age = 20;
+    let occupation = "Software Developer";
+    let email = "jawad@example.com";
+    let phoneNumber = "123-456-7890";
+    let instituteName = "Jawan Pakistan";
+    let education = "Mern Stack";
+    let city = "Karachi";
+
+    document.write(`
+      My name is ${name}.I am ${age} years old. I live in ${city} <br>
+      I am a ${occupation} <br>
+      This is my Email: ${email} <br>
+      This is my Phone Number: ${phoneNumber} <br>
+      My Institute Name is ${instituteName} <br>
+      I am studying ${education} <br>
+      <br>
+    `);
+    document.write(`<h2>MARKSHEET </h2>`)
+    let English = 85;
+    let Maths = 90;
+    let Science = 78;
+    let Art = 88;
+    let Urdu = 95;
+
+    const totalMarks = 500;
+    let obtainedMarks = English + Maths + Science + Art + Urdu;
+    let percentage = (obtainedMarks / totalMarks) * 100;
+
+    let grade = "";
+    if (percentage >= 80) {
+      grade = "A+";
+    } 
+    else if (percentage >= 70) {
+      grade = "A";
+    } 
+    else if (percentage >= 60) {
+      grade = "B";
+    } 
+    else if (percentage >= 50) {
+      grade = "C";
+    }
+     else {
+      grade = "Fail";
+    }
+
+    document.write(`
+      <h3>RESULT</h3>
+      ENGLISH: ${English} <br>
+      MATHS: ${Maths} <br>
+      SCIENCE: ${Science} <br>
+      ART: ${Art} <br>
+      URDU: ${Urdu} <br>
+      Total Marks: ${totalMarks} <br>
+      Obtained Marks: ${obtainedMarks} <br>
+      Percentage: ${percentage}% <br>
+      Grade: ${grade}<br>
+    `);
+    document.write(`QUESTION NO:3`)
+
+    // ----------- var -----------
+    var a = "hammad";
+    var abc;
+    var a = "razA";
+    console.log(a); 
+
+    var a = "hammad"; 
+    function abcFunc() {
+      var a = "Faraz";
+      console.log(a); 
+    }
+    abcFunc();
+    //let
+    let b = "Ali";
+    b = "Ahmed"; 
+    console.log(b); 
+
+    {
+      let b = "Haris";
+      console.log(b); 
+    }
+    console.log( b); 
+
+    const c = "Zain";
+    console.log(c); 
+     {
+      const c = "hasi"; 
+      console.log(c); 
+    }
+    console.log(c); 
+  </script>
+</body>
+</html>

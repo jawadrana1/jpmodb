@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+    // Marks for subjects
+    let math = +prompt("enter your maths num");
+    let english = +prompt("enter your english num");
+    let science = +prompt("enter your science num");
+
+    // Total marks
+    const totalMarks = 300;
+    const obtainedMarks = math + english + science;
+    const percentage = (obtainedMarks / totalMarks) * 100;
+
+    // Grade using nested ternary operators
+    const grade = percentage >= 90 ? 'A+' :
+                  percentage >= 80 ? 'A' :
+                  percentage >= 70 ? 'B' :
+                  percentage >= 60 ? 'C' : 'Fail';
+
+    // Output the result
+    document.write(`<h2>Marksheet</h2>`);
+    document.write(`<p>Math: ${math}</p>`);
+    document.write(`<p>English: ${english}</p>`);
+    document.write(`<p>Science: ${science}</p>`);
+    document.write(`<p><strong>Total Marks:</strong> ${totalMarks}</p>`);
+    document.write(`<p><strong>Obtained Marks:</strong> ${obtainedMarks}</p>`);
+    document.write(`<p><strong>Percentage:</strong> ${percentage.toFixed(2)}%</p>`);
+    document.write(`<p><strong>Grade:</strong> ${grade}</p>`);
+    </script>
+</body>
+</html>
