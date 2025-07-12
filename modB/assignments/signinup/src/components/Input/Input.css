@@ -1,0 +1,47 @@
+.form-input {
+  position: relative;
+  border: 0.0025rem solid var(--primary-color);
+  border-radius: 8px;
+  /* margin-bottom: 16px;  */
+}
+
+.form-input-label {
+  position: absolute;
+  left: 10px;
+  top: 18px;
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.form-input-label:has(+ .input-field:focus),
+.form-input-label:has(+ .input-field:valid) {
+  top: 8px;
+  font-size: 0.9rem;
+}
+
+.form-input-label i {
+  padding-right: 4px;
+}
+
+.input-field {
+  font-size: 1.1rem;
+  text-indent: 17px;
+  color: var(--primary-color);
+  height: 64px;
+  width: 100%;
+  background: none;
+  padding: 20px 10px 0;
+  text-overflow: ellipsis;
+  border: 0;
+}
+
+.input-field:focus {
+  border-radius: 8px;
+  outline: var(--accent-color) solid 2px;
+}
+
+.input-hidden {
+  display: none;
+}

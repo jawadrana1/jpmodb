@@ -1,0 +1,57 @@
+.button {
+  touch-action: manipulation;
+  background: var(--accent-color);
+  border: 0.5px solid var(--accent-color);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.14) 0 1px 0.5px,
+    rgba(182, 229, 255, 0.4) 0 1px 0.5px inset,
+    rgba(23, 45, 202, 0.46) 0 -1px 0.5px inset,
+    var(--accent-color) 0 0 0 0.5px inset;
+  color: var(--secondary-color);
+  font-weight: 600;
+  outline: 3px var(--secondary-color);
+  outline-offset: 0;
+  position: relative;
+  text-shadow: var(--accent-color) 0 -1px 0.5px;
+  top: 0;
+  height: 3rem;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 100%;
+
+  cursor: pointer;
+
+  /* optional */
+  transition-property: outline-offset, border-color, transform;
+  transition-duration: 0.2s;
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+.button:hover {
+  opacity: 1;
+
+  /* optional */
+  transform: scale(1.04);
+}
+
+.button:active {
+  /* optional */
+  transform: scale(0.98);
+}
+
+.button:focus {
+  border-radius: 8px;
+  outline: var(--primary-color) solid 2px;
+}
+
+.custom-color {
+  background-color: rgba(218, 59, 46, 0.512);
+  color: var(--secondary-color);
+}
