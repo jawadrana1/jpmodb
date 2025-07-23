@@ -1,0 +1,78 @@
+/* mainNavbar.module.css */
+
+.navbar {
+    background-color: #f85606;
+    /* Daraz orange */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+   
+
+.searchBar {
+  
+
+   display: flex;
+    align-items: right;
+    width: 400px;
+    /* Fixed width instead of 50% */
+    height: 40px;
+    /* Fixed height */
+    justify-content: flex-end;
+
+}
+
+.searchInput {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.searchButton {
+    padding: 8px 16px;
+    background-color: #d44100;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.navLinks {
+    display: flex;
+    gap: 15px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: opacity 0.2s;
+}
+
+.navLink:hover {
+    opacity: 0.8;
+}
+
+
+
+
