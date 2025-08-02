@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "phone": "493-170-9623 x156"
+    },
+    {
+      "id": "2",
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "phone": "(254)954-1289"
+    },
+    {
+      "id": "3",
+      "name": "Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "phone": "1-477-935-8478 x6430"
+    },
+    {
+      "id": "4",
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "phone": "210.067.6132"
+    },
+    {
+      "id": "5",
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "phone": "586.493.6943 x140"
+    },
+    {
+      "id": "6",
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "phone": "(775)976-6794 x41206"
+    },
+    {
+      "id": "8",
+      "name": "Owais",
+      "username": "Owais123",
+      "email": "owais@gmail.com",
+      "phone": "999999"
+    },
+    {
+      "id": "9",
+      "name": "Ilyas",
+      "username": "Ilyas555",
+      "email": "Ilyas@gmail.com",
+      "phone": "7777777"
+    },
+    {
+      "id": "10",
+      "name": "John Doe",
+      "username": "johnd",
+      "email": "john.doe@example.com",
+      "phone": "111-111-1111"
+    },
+    {
+      "id": "89fa",
+      "name": "Kaleem",
+      "username": "Kaleem345",
+      "email": "kaleem@gmail.com",
+      "phone": "78633375"
+    },
+    {
+      "id": "31e8",
+      "name": "Haris",
+      "username": "Haris1234",
+      "email": "haris@gmail.com",
+      "phone": "00000"
+    }
+  ]
+}
