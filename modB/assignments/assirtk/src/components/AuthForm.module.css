@@ -1,0 +1,70 @@
+/* AuthForm.module.css */
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #2563eb; /* Blue */
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button[type="submit"] {
+  background-color: #2563eb;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e40af;
+}
+
+.switch-btn {
+  background: none;
+  border: none;
+  margin-top: 15px;
+  color: #2563eb;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.switch-btn:hover {
+  color: #1e40af;
+}
